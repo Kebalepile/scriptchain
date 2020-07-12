@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #ffff;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* all anchor tags */
+a {
+  text-decoration: none;
+}
+/* home page footer */
+footer {
+  position: fixed;
+  bottom: 20px;
+  font-size: 12px;
+}
+/* navigations */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 500px;
+}
+.nav-icon > img {
+  margin-left: 10px;
+  width: 50px;
+  height: 100px;
+  cursor: pointer;
+}
+/* app container */
+.app {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+/* scriptchain app log  */
+.appLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+/* network nodeURL select & options */
+#nodeurl {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #222;
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  outline: none;
+}
+/* component container */
+.container {
+  margin-top: 20vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+/* node page */
+.node {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.node > .options {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+.options > button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  background-color: inherit;
+  outline: none;
+}
+.options > button:hover {
+  background-color: #0f8bf0;
+}
+
+.node > hr {
+  background-color: white;
+  border: none;
+  height: 2px;
+  width: 99%;
+}
+.node :nth-child(odd) {
+  width: 100%;
+  background-color: #554f4f;
+}
+.node-results {
+  max-height: 450px;
+  height: 448px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  color: white;
+}
+
+.display  {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.display > textarea {
+  color: #ffa0db;
+  height: 200px;
+  width:90%;
+  word-break: break-word;
+  background:none;
+  resize:none;
+}
+
+.display > h4 {
+  color:#56d7ff;
+  padding-left:25px;
+  padding-bottom: 5px;
+ 
+}
+
+/* transaction page */
+.transaction {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.transaction > input[type="submit"] {
+  background-color: #0f8bf0;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+.transaction > * {
+  margin-top: 15px;
+}
+.transaction > section {
+  width: 250px;
+}
+.transaction > section > span {
+  background-color: #48a4f0;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  border-top-right-radius: 2px;
+}
+.transaction > section > input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  height: 30px;
+  color: black;
+  outline: none;
+  text-align: left;
+  border: none;
+}
+
+.transaction > section > textarea {
+  height: 50px;
+}
+
+.transaction :nth-child(4) {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.transactionMsg >  textarea{
+  height: 150px;
+  color: #00ccff;
+
+}
+/* network nodes */
+.allnodes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height:80vh;
+    overflow-y:auto;
+  flex-flow: row wrap;
+}
+
+.nodeOfAllNodes{
+  margin: auto;
+  width: 400px;
+  height: 300px;
+}
+
+.nodeOfAllNodes > textarea {
+  width:100%;
+  height: 250px;
+  color: #ffa0db;
+  resize:none;
+}
+
+/* nothing to display component */
+#nothingToDisplay{
+  color:#ca5a47;
+  margin-top:auto;
+  margin-left: 35%;
+  width:200px;
+}
+
+.statusUpdate{
+  width:400px;
+  margin: 200px;
+  text-align: center;
+  background-color:#2b8effe7;
+  border-radius: 1px;
+  padding: 20px;
+}
+
