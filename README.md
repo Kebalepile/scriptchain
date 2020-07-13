@@ -22,7 +22,7 @@ the transaction pool recipient being the successful node.
 
 
 ### Instructions
-
+NB port 3000 up to 3007 and port 8080 must be not running anything.
 1 git clone https://github.com/Kebalepile/scriptchain.git.
 
 2 cd into folder.
