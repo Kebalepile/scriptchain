@@ -23,11 +23,15 @@ the transaction pool recipient being the successful node.
 
 ### Instructions
 
-1 git clone https://github.com/Kebalepile/scriptchain.git
-2 cd into folder
-3 npm install (depending on your network speed electron may take time to install)
-4 npm run scriptchain
-5 play time
+1 git clone https://github.com/Kebalepile/scriptchain.git.
+
+2 cd into folder.
+
+3 npm install (depending on your network speed electron may take time to install).
+
+4 npm run scriptchain.
+
+5 play time.
 
 
 
