@@ -19,13 +19,20 @@ such node(s) blockchain, last block mined, transactions in transaction pool and 
 any node that successfully mines a block and it is accepted is rewarded with some script coin, a transaction is added automatically to 
 the transaction pool recipient being the successful node.
 
-### command line version
-you can find the cmd version repo [here](https://github.com/Kebalepile/js_blockchain)
-just git clone
-run npm install
-look at package.json scripts
-requires postman, cur or any for making requests
 
-### Electron version
-I recommend [this one](https://github.com/Kebalepile/scriptchain) for noobs,
-development files are cleaner and organized well.
+
+### Instructions
+
+1 git clone https://github.com/Kebalepile/scriptchain.git
+2 cd into folder
+3 npm install (depending on your network speed electron may take time to install)
+4 npm run scriptchain
+5 play time
+
+
+
+### optional
+If you want to run app in production simply do npm run build && npm run postpackage, 
+then cd into scriptchain/release-builds/(somefolder here, depends on your OS) and run the scriptchain.exe file.
+To fully see what each node(s) properties use browser to via node(s) localhost url.
+
