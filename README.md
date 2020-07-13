@@ -23,20 +23,21 @@ the transaction pool recipient being the successful node.
 
 ### Instructions
 NB port 3000 up to 3007 and port 8080 must be not running anything.
-1 git clone https://github.com/Kebalepile/scriptchain.git.
+1 git clone https://github.com/Kebalepile/scriptchain.git
 
-2 cd into folder.
+2 cd into scriptchain folder
 
-3 npm install (depending on your network speed electron may take time to install).
+3 npm install (depending on your network speed electron may take time to install)
 
-4 npm run scriptchain.
+4 npm run scriptchain
 
-5 play time.
+5 play time
 
 
 
 ### optional
 If you want to run app in production simply do npm run build && npm run postpackage, 
 then cd into scriptchain/release-builds/(somefolder here, depends on your OS) and run the scriptchain.exe file.
+
 To fully see what each node(s) properties use browser to via node(s) localhost url.
 
