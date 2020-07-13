@@ -31,7 +31,9 @@ NB port 3000 up to 3007 and port 8080 must be not running anything.
 
 4 npm run scriptchain
 
-5 play time
+5  wait for terminal/bash to print "... compiled successfully",
+
+6 play time.
 
 
 
