@@ -43,3 +43,6 @@ then cd into scriptchain/release-builds/(somefolder here, depends on your OS) an
 
 To fully see what each node(s) properties use browser to via node(s) localhost url.
 
+if you want full control checkout the [CLI version](https://github.com/Kbalepile/js_blockchain) which is a bit advanced for some noob(s),
+also for a proper walk through, do not hesitate to contact me via [Telegram](https://t.me/Keba23) or  [Readit](https://www.reddit.com/user/keba23/)
+
